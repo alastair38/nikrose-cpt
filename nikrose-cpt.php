@@ -206,10 +206,11 @@ function ac_base_projects() {
       'menu_position' => 4, /* this is what order you want it to appear in on the left hand side menu */
       'menu_icon' => 'dashicons-clipboard', /* the icon for the custom post type menu */
       'has_archive' => true, /* you can rename the slug here */
-      'rewrite'     => ['slug' => 'research'],
+      'rewrite'     => ['slug' => 'projects'],
       'with_front' => true,
       'capability_type' => 'page',
       'hierarchical' => false,
+      'show_in_rest' => true,
       /* the next one is important, it tells what's enabled in the post editor */
       'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')
     ) /* end of options */
